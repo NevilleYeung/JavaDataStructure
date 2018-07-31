@@ -1,4 +1,4 @@
-package com.datastructure.list;
+package com.datastructure.collection.list;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -23,11 +23,11 @@ public class ArrayListRecord
          */
 
         /*
-        ArrayList有两个重要的成员变量，elementData 和 size。
+        ArrayList有两个重要的成员变量，elementData[] 和 size。
         elementData 是Object[]类型的动态数组，它保存了添加到ArrayList中的元素。
         elementData初始容量默认为10，也可通过构造方法自定义。
 
-        size则是动态数组的元素个数。
+        size则是动态数组元素的实际个数。
          */
         List<String> lista = new ArrayList<String>();
         List<String> listb = new ArrayList<String>(2);
