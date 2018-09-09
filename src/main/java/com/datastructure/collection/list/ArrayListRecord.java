@@ -6,6 +6,7 @@ import java.util.List;
 
 /**
  * ArrayList代码走读记录
+ * JDK版本：1.8.0_172
  *
  */
 public class ArrayListRecord
